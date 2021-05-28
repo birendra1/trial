@@ -29,7 +29,7 @@
 
 <div class="container login-container">
     <div class="row">
-        <div class="col-md-6 login-form-1">
+        <div class="col-md-6 login-form-1" style="margin-left:28%">
             <h3>Login</h3>
             <form action="<?php base_url(); ?>/user/login/submit" method="post">
                 <div class="form-group">

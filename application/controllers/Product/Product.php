@@ -102,6 +102,25 @@ class Product extends CI_Controller
 
     public function view()
     {
+        $email = $_SESSION['email'];
+
+        $result = $this->User_model->getUserByEmail($email);
+        $userdata = array();
+        $userdata['result'] = $result[0];
+    
+    
+        $data['title'] = "Product View";
+        
+        if ( $_SESSION['userType'] == 1) {
+          $data['isLoggedIn'] = TRUE;
+          $this->load->view('template/header', $data);
+        $results = $this->product->select();
+        $product = array();
+        $product['results'] = $results;   
+
+        $this->load->view('admin/product_list',$product);
+        $this->load->view('template/footer');
+        }
 
     }
 

@@ -32,7 +32,7 @@ class Product_model extends CI_Model
 
     public function select()
     {
-        $this->db->select('p_title, p_name,p_description,p_categoryType,p_isActive,p_created_at,p_created_by,p_updated_at,p_updated_by');
+        $this->db->select('p_title, p_name,p_description,p_category_type,p_isActive,p_created_at,p_created_by,p_updated_at,p_updated_by');
         $this->db->from('product');
         $query = $this->db->get();
         // var_dump($query->result());

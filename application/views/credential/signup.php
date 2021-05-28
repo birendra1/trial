@@ -1,4 +1,6 @@
-<div class="signup-form">
+<div class="container login-container">
+    <div class="row">
+        <div class="col-md-6 login-form-1" style="margin-left:28%">
     <form action="user/create" method="post">
         <h2>Sign Up</h2>
         <p>Please fill in this form to create an account!</p>

@@ -9,7 +9,14 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="<?php base_url(); ?>/admin/category_add">Add Category</a>
                 </li>
-                <!-- <?php echo base_url()."admin/category_insert"; ?> -->
+                <li class="nav-item">
+                    <a class="nav-link " href="<?php base_url(); ?>/admin/product_add">Add Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php base_url(); ?>/admin/product_list">View all Product</a>
+                </li>
+
+                
                 <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
                 </li> -->

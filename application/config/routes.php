@@ -79,5 +79,7 @@ $route['admin/product_add'] = 'Product/product/addProduct';
 
 $route['admin/product_insert'] = 'Product/product/create';
 
+$route['admin/product_list'] = 'Product/product/view';
+
 
 // $route['user/create'] = 'signup_controller/create';

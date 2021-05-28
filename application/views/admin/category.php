@@ -13,7 +13,7 @@
                     <a class="nav-link" href="<?php base_url(); ?>/admin/product_add">Add Product</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php base_url(); ?>/admin/category_add">View all Product</a>
+                    <a class="nav-link" href="<?php base_url(); ?>/admin/product_list">View all Product</a>
                 </li>
             </ul>
         </div>
